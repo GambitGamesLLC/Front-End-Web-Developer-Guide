@@ -6,7 +6,7 @@
 * **Version Control:** [Git](git-and-github.md)
 * **Repository Host:** [Github](git-and-github.md)
 * **Package Manager:** [PNPM](pnpm.md)
-* **Language:** [Typescript](typescript.md)
+* **Programming Language:** [Typescript](typescript.md)
 * **Package Modules:** [ESM](esm.md)
 * **Bundler:** [Vite](vite.md)
 * **Reactive UI:** [Svelte](svelte.md)
