@@ -2,7 +2,7 @@
 
 ## What Is It?
 
-Babylonjs is the leading WebGL game engine.
+Babylonjs is the leading WebGL game engine with the largest community of any WebGL engine.
 
 {% embed url="https://www.youtube.com/watch?v=opZx1e53WHo" %}
 

@@ -17,6 +17,16 @@ Vite is a web asset build tool, that takes the files for your web app or package
 * Open Visual Studio Code
 * Open a new terminal window, and run the `pnpm install vite` command
 
+## Primary Commands
+
+```
+//Test your project locally
+pnpm run dev
+
+//Build your project to the /dist folder
+pnpm run build
+```
+
 ## Project Creation Guide
 
 * Open Visual Studio Code and start a new terminal window
