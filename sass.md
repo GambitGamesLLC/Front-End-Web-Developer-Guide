@@ -16,7 +16,7 @@ Sass is a superset of CSS that extends it with several new abilities and conveni
 ## Installation Guide
 
 * Open Visual Studio Code
-* Open your terminal window and run `pnpm install --save-dev sass`
+* Open your terminal window and run `pnpm add -D sass` to add the Sass preprocessor to Vite ([view documentation](https://vitejs.dev/guide/features.html#css-pre-processors))
 
 {% embed url="https://www.youtube.com/watch?v=RfNjbfmNsX4" %}
 
