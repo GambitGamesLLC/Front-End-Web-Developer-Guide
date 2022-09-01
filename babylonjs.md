@@ -2,7 +2,7 @@
 
 ## What Is It?
 
-Babylonjs is the leading WebGL game engine with the largest community of any WebGL engine.
+Babylonjs is the leading WebGL game engine.
 
 {% embed url="https://www.youtube.com/watch?v=opZx1e53WHo" %}
 
@@ -37,13 +37,25 @@ We recommend reading the [official Babylonjs documentation](https://doc.babylonj
 * NodeTransform in Babylonjs == Transform in Unity3D
 * Nodes in Babylonjs can only represent a single component
 
-## Testing Guide
+## Inspector & Hierarchy
 
-Within your test.js script, you may find it necessary to add the imported Babylonjs core to the window object in the DOM. This is necessary in cases where you need to view the Babylonjs inspector to debug your scene.
+In cases where you need to view the Babylonjs inspector to debug your scene, you will need to add at the very least the @babylonjs/core package to the window object of the DOM.
 
 ```
 import * as BABYLON from "@babylonjs/core";
 window.BABYLON = {...BABYLON};
+
+//Show the Babylonjs inspector
+scene.debugLayer.show({
+    embedMode: true,
+    enableClose: false,
+    enablePopup: true,
+    globalRoot: document.getElementById("app"),
+    handleResize: true,
+    overlay: true,
+    showExplorer: true,
+    showInspector: true
+});
 ```
 
 ## Additional Tools
