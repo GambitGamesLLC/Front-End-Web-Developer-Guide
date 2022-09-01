@@ -1,2 +1,13 @@
-# Front-End-Web-Developer-Guide
-Documentation on the technologies used for front-end web development
+# 💎 Modern Front-End
+
+* **Code Editor:** Visual Studio Code
+* **Version Control:** Git
+* **Repository Host:** Github
+* **Package Manager:** PNPM
+* **Language:** Typescript
+* **Package Modules:** ESM
+* **Bundler:** Vite
+* **Reactive UI:** Svelte
+* **CSS Extension System:** Sass
+* **WebGL Engine:** Babylonjs
+* **Web Storage:** Amazon S3
