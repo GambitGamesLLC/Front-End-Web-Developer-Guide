@@ -2,7 +2,7 @@
 
 [View this guide online](https://gambitgames.gitbook.io/web-dev-guide/) at Gitbook for proper formatting.
 
-* **Code Editor:** Visual Studio Code
+* **Code Editor:** [Visual Studio Code](visual-studio-code.md)
 * **Version Control:** Git
 * **Repository Host:** Github
 * **Package Manager:** PNPM
