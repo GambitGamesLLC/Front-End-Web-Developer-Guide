@@ -1,5 +1,7 @@
 # 💎 Modern Front-End
 
+[View this guide online](https://gambitgames.gitbook.io/web-dev-guide/) at Gitbook for proper formatting.
+
 * **Code Editor:** Visual Studio Code
 * **Version Control:** Git
 * **Repository Host:** Github
