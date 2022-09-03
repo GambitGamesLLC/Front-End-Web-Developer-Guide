@@ -14,7 +14,7 @@ ES6 modules (shortened to 'ESM') are the standard way of writing and reading cod
 
 ## Why Not Use IIFE Or CommonJS?
 
-* IIFE helps prevent polluting the window object in javascript with variables, but script name clashes can still occur.
+* IIFE helps prevent polluting the window object in JavaScript with variables, but script name clashes can still occur.
 * CommonJS is the unofficial standard for modules created before ESM existed. It still works but is deprecated as ESM is built into modern web browsers.
 * For more info, check out the video below
 

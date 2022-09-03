@@ -2,6 +2,8 @@
 
 [View this guide online](https://gambitgames.gitbook.io/web-dev-guide/) at Gitbook for proper formatting.
 
+Ready to get started? Clone our [Front-End Web Template](https://github.com/GambitGamesLLC/front-end-web-template).
+
 * **Code Editor:** [Visual Studio Code](visual-studio-code.md)
 * **Version Control:** [Git](git-and-github.md)
 * **Repository Host:** [Github](git-and-github.md)
