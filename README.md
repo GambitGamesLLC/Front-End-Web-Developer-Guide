@@ -2,7 +2,11 @@
 
 [View this guide online](https://gambitgames.gitbook.io/web-dev-guide/) at Gitbook for proper formatting.
 
-Ready to get started? Clone our [Front-End Web Template](https://github.com/GambitGamesLLC/front-end-web-template).
+Ready to get started? Clone one of our templates below...
+
+[Front-End Web Library Package Template](https://github.com/GambitGamesLLC/front-end-web-template)
+
+[Babylonjs Web Library Package Template](https://github.com/GambitGamesLLC/babylon-web-template)
 
 * **Code Editor:** [Visual Studio Code](visual-studio-code.md)
 * **Version Control:** [Git](git-and-github.md)
