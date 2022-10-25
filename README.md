@@ -4,7 +4,7 @@
 
 Ready to get started? Clone one of our templates below...
 
-[Typescript Web Library Package Template](https://github.com/AvalonCorp/typescript-vite-library-template)
+[Typescript Web Library Package Template](https://github.com/GambitGamesLLC/typescript-vite-library-template)
 
 [Reactive UI Web Library Package Template](https://github.com/GambitGamesLLC/reactive-ui-web-template)
 
