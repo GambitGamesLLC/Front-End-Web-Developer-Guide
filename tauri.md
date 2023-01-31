@@ -24,14 +24,18 @@ Tauri is a multi-platform, front-end agnostic build tool for creating platform a
     * Install [WebView2](https://tauri.app/v1/guides/getting-started/prerequisites/#2-webview2) (skip if on Windows 11 or above)
     * Install [Rust](https://tauri.app/v1/guides/getting-started/prerequisites/#3-rust)
     * Restart your computer
+  * For [Mac](https://tauri.app/v1/guides/getting-started/prerequisites#setting-up-macos)
+  * For [Linux](https://tauri.app/v1/guides/getting-started/prerequisites#setting-up-linux)
 * Copy the [Tauri + Typescript + Vite template repo](https://github.com/GambitGamesLLC/tauri-typescript-vite-template) on Github to get started with your own project.
 
 ## Primary Commands
 
+Open Visual Studio Code and use the primary commands below via the Terminal Window to interact with Tauri.
+
 ```
-//Test your project locally
+//Test your app locally
 pnpm tauri dev
 
-//Build your project to the /dist folder
+//Build your app to the /dist folder
 pnpm tauri build
 ```
