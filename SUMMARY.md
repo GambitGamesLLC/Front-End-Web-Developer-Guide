@@ -8,6 +8,7 @@
 * [🔢 Typescript](typescript.md)
 * [📦 ESM](esm.md)
 * [⚡ Vite](vite.md)
+* [🖥 Tauri](tauri.md)
 * [🏺 Svelte](svelte.md)
 * [👗 Sass](sass.md)
 * [👾 Babylonjs](babylonjs.md)

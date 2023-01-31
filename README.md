@@ -4,8 +4,6 @@
 
 Ready to get started? Clone one of our templates below...
 
-[Tauri + Typescript + Vite App Template](https://github.com/GambitGamesLLC/tauri-typescript-vite-template)
-
 [Typescript Web Library Package Template](https://github.com/GambitGamesLLC/typescript-vite-library-template)
 
 [Reactive UI Web Library Package Template](https://github.com/GambitGamesLLC/reactive-ui-web-template)
@@ -25,4 +23,3 @@ Ready to get started? Clone one of our templates below...
 * **CSS Extension System:** [Sass](sass.md)
 * **WebGL Engine:** [Babylonjs](babylonjs.md)
 * **Web Storage:** [Amazon S3](amazon-s3.md)
-* **App Builder:** Tauri
