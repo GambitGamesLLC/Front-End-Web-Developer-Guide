@@ -36,6 +36,9 @@ Open Visual Studio Code and use the primary commands below via the Terminal Wind
 //Test your app locally
 pnpm tauri dev
 
-//Build your app to the /dist folder
+//Build your app for your current Operating System to the /dist folder
 pnpm tauri build
+
+//Update Tauri
+pnpm update @tauri-apps/cli @tauri-apps/api --latest
 ```
