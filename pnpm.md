@@ -32,12 +32,23 @@ This is because Vite makes a copy of your global PNPM packages when testing and 
 
 To clear this cache, inside your project delete the `node_modules/vite` folder in your project hierarchy. It will be recreated the next time you run the `pnpm run dev` and copy your latest global packages.
 
-## Private Github Repositories
+## Private GitHub Repositories
 
-The commands for accessing private Github repositories is the same as with standard NPM.
+The commands for accessing private GitHub repositories is the same as with standard NPM.
 
-However accessing private github repositories does not work out of the box for PNPM. In standard NPM you can authenticate using an automatic web browser popup that has you sign into your Github account.
+However accessing private GitHub repositories does not work out of the box for PNPM. In standard NPM you can authenticate using an automatic web browser popup that has you sign into your GitHub account.
 
-We can get around this by creating an SSH key from our machine and uploading it to our Github organization so they can handshake. Follow the video below to setup your local machine accordingly.
+We can get around this by creating an SSH key from our machine and uploading it to our GitHub organization so they can handshake. Follow the video below to setup your local machine accordingly.
 
 {% embed url="https://youtu.be/JuQhNFYMFcE" %}
+
+### Windows PowerShell Privileges
+
+To enable windows PowerShell to access private repositories with pnpm, there's an additional step we need to do.
+
+* On Windows PC's, press the windows key
+* Type 'PowerShell'
+* Right click the PowerShell icon and choose open as administrator
+* Type the following command and press enter
+  * `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine`
+* Press 'Y' when prompted.
