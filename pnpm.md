@@ -19,10 +19,31 @@ To enable windows PowerShell to install PNPM,, there's an additional step we may
 
 * On Windows PC's, press the windows key
 * Type 'PowerShell'
-* Right click the PowerShell icon and choose open as administrator
+* Right click the PowerShell icon and choose open as administrator.
 * Type the following command and press enter
   * `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine`
 * Press 'Y' when prompted.
+
+## SSH-Agent
+
+On Windows, we need to make sure we have a valid SSH agent running before we can attach our private Github keys to it.
+
+* On Windows PC's, press the windows key
+* Type 'PowerShell'
+* Right click the PowerShell icon and choose open as administrator.
+* Type the following command and press enter
+* ```
+  Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+  ```
+* Now check if SSH-Agent is running by running another terminal command
+* ```
+  Get-Service ssh-agent
+  ```
+* If your SSH agent is stopped or disabled, you can manually start it using another command
+* ```
+  ssh-agent start
+  ```
+* Now if you run the `Get-Service ssh-agent` command again, it should show the service is running.
 
 ## Installation Instructions
 
