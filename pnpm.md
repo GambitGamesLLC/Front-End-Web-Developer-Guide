@@ -73,3 +73,22 @@ However accessing private GitHub repositories does not work out of the box for P
 We can get around this by creating an SSH key from our machine and uploading it to our GitHub organization so they can handshake. Follow the video below to setup your local machine accordingly.
 
 {% embed url="https://youtu.be/JuQhNFYMFcE" %}
+
+## Test Your Connection To Your Private Github
+
+{% hint style="info" %}
+This step isn't always necessary, but it's highly recommended.
+
+The act of testing a PC for a connection to Github forces the Windows Terminal to authenticate the ID key that Github provides,&#x20;
+
+It is believed this authentication step fixes some issues with SSH not connecting regardless of the previous steps in this guide being done correctly.
+{% endhint %}
+
+On Windows in your Terminal window, type the command below and press enter
+
+* `ssh -T git@github.com`
+* When prompted, enter in your github email and press enter
+* You may see a security warning, agree to it to continue
+* Afterwards if your SSH agent was properly setup, you should see a success message like the one below
+  * `Hi USERNAME! You've successfully authenticated, but GitHub does not provide shell access.`
+* If you encountered issues connecting PNPM to your private github, but this check is successful, try running your commands in terminal again.&#x20;
