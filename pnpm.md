@@ -13,6 +13,17 @@ PNPM (Performant Node Package Manager) is an alternative to the popular NPM (Nod
 * **Faster** - All commands in general just run must faster than NPM
 * **Drop-In Replacement** - There's no good reason to not just replace NPM commands with PNPM
 
+## Windows PowerShell Privileges
+
+To enable windows PowerShell to install PNPM,, there's an additional step we may need to do.
+
+* On Windows PC's, press the windows key
+* Type 'PowerShell'
+* Right click the PowerShell icon and choose open as administrator
+* Type the following command and press enter
+  * `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine`
+* Press 'Y' when prompted.
+
 ## Installation Instructions
 
 * Make sure you have NPM installed already
@@ -41,14 +52,3 @@ However accessing private GitHub repositories does not work out of the box for P
 We can get around this by creating an SSH key from our machine and uploading it to our GitHub organization so they can handshake. Follow the video below to setup your local machine accordingly.
 
 {% embed url="https://youtu.be/JuQhNFYMFcE" %}
-
-### Windows PowerShell Privileges
-
-To enable windows PowerShell to access private repositories with pnpm, there's an additional step we need to do.
-
-* On Windows PC's, press the windows key
-* Type 'PowerShell'
-* Right click the PowerShell icon and choose open as administrator
-* Type the following command and press enter
-  * `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine`
-* Press 'Y' when prompted.
